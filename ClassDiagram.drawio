@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2024-07-07T03:41:19.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GEAwqRn-4UJJa9yuGgwm" version="24.6.4" type="device">
+  <diagram name="Page-1" id="R6GyDgncnSuUlEDgX3DP">
+    <mxGraphModel dx="2074" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VOb6SUR6aHeEpssu1InY-3" value="User" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOb6SUR6aHeEpssu1InY-5" value="-username&lt;br&gt;-password&lt;br&gt;-email&lt;br&gt;&lt;br&gt;+register()&lt;br&gt;+login()&lt;br&gt;+logout()&lt;br&gt;+addTask()&lt;br&gt;+removeTask()&lt;br&gt;+viewTasks()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VOb6SUR6aHeEpssu1InY-6" value="Task" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOb6SUR6aHeEpssu1InY-7" value="-title&lt;br&gt;-descriptin&lt;br&gt;-dueDate&lt;br&gt;-status&lt;br&gt;&lt;br&gt;+markAsCompleted()&lt;br&gt;+editTask()&lt;br&gt;+viewTask()" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="320" width="120" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VOb6SUR6aHeEpssu1InY-8" value="ToDoList" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VOb6SUR6aHeEpssu1InY-9" value="-owner (User)&lt;br&gt;-tasks (List)&lt;br&gt;&lt;br&gt;+addTask()&lt;br&gt;+remove task()&lt;br&gt;+getTasks()&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
